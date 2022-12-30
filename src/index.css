@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .grid-boxar {
+    @apply min-h-full p-10 m-10 border border-cyan-500 rounded-md shadow-2xl bg-gray-700 text-zinc-50 font-mono;
+  }
+}
